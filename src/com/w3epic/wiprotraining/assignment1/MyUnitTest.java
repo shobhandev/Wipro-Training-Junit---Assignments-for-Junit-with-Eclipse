@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class MyUnitTest {
+class DemoTest {
 
 	@Test
 	void testStringConcat() {
-		MyUnit myUnit = new MyUnit();
+		Demo myUnit = new Demo();
 		assertEquals("Result", "HelloWorld", myUnit.stringConcat("Hello", "World"));
 	}
 
